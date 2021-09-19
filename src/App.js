@@ -4,6 +4,7 @@ import Project from './components/Project'
 import About from './components/About';
 import Navigation from './components/Navigation'
 import ContactForm from './components/Contact';
+import Page from './components/Page'
 
 function App() {
   const [pages] = useState([
