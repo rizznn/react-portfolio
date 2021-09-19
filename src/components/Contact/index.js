@@ -18,7 +18,7 @@ function ContactForm() {
     // JSX
     return (
         <section className="contact-section">
-          <h1 className="contact-title">Contact me</h1>
+          <h1 className="contact-title m-5 text-center">Contact me</h1>
           <form id="contact-form" onSubmit={handleSubmit}>
             <div>
               <label htmlFor="name">Name:</label>

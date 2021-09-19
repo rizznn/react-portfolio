@@ -8,7 +8,7 @@ function Project({ project }) {
 		<div className="col-lg-4 col-sm-6">
 		<div className="portfolio-box" key={name}>
 			<img
-				src={require(`../../assets/portfolio/${name}.jpg`)}
+				src={require(`../../assets/portfolio/${name}.png`)}
 				alt={name}
 				className="img-fluid"
 			/>

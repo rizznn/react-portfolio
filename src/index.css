@@ -15,7 +15,7 @@ body {
   color: #ffcdb2;
 }
 
-.about {
+.about, .portfolio-title, .contact-title, .resume-title {
   font-family: 'Aladin', italic;
   font-size: 4rem;
   font-weight: bold;
@@ -28,8 +28,9 @@ body {
   margin-left: 0 auto;
 }
 
-p {
+.about-p {
   align-items: flex-end;
+  font-size: 1.25rem;
 }
 
 header {
@@ -67,6 +68,7 @@ header nav ul {
   list-style: none;
 }
 
+
 .ul-section li {
   list-style: none;
 }
@@ -82,14 +84,13 @@ header nav ul {
   color: #ffcdb2;
 }
 
-.contact-title {
-  font-family: 'Aladin', 'italic';
-  font-size: 3rem;
-
-}
 
 .contact-section {
   margin: 5%;
+}
+
+form, .skills {
+  margin-left: 10%;
 }
 
 form label {
@@ -112,10 +113,26 @@ form label {
   padding: 6px 5px;
   display: block;
   margin: 5px 0;
-  border-radius: var(--border-radius);
+  border-radius: .3em;
   color: #6d6875;
   background-color: #ffb4a2;
   box-shadow: 3px 3px lightgray;
   transform: translate(-1px, -1px);
+}
+
+.portfolio-title {
+  margin-top: auto;
+}
+
+
+
+.my-resume {
+  text-decoration: none;
+  padding: 6px 5px;
+  margin: 5px 0;
   border-radius: .3em;
+  color: #6d6875;
+  background-color: #ffb4a2;
+  box-shadow: 3px 3px lightgray;
+  transform: translate(-1px, -1px);
 }

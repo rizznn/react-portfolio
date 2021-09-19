@@ -23,19 +23,11 @@ function Navigation(props) {
             </h2>
             <nav className="nav-section flex">
                 <ul className="flex-row ul-section">
-                    <li className="about-nav mx-2">
-                        <a data-testid="about" href="#about">
-                        About me
-                        </a>
-                    </li>
-                    <li className="mx-2">
-                        <span>Contact</span>
-                    </li>
                     {pages.map((Page) => (
                     <li className={`mx-1 ${
                         currentPage.name === Page.name && 'navActive'
                         }`}  key={Page.name}>
-                        <span onClick={() => {setCurrentPage(Page)}}>
+                        <span className="nav-header" onClick={() => {setCurrentPage(Page)}}>
                             {capitalizeFirstLetter(Page.name)}
                         </span>
                     </li>
