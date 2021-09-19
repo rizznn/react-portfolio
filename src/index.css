@@ -5,9 +5,29 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #6d6875;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  margin:0;
+  padding: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #ffcdb2;
+}
+
+.about {
+  font-family: 'Aladin', italic;
+  font-size: 4rem;
+  font-weight: bold;
+  flex-wrap:wrap;
+  display: block;
+  
+}
+
+.office {
+  margin-left: 0 auto;
+}
+
+p {
+  align-items: flex-end;
 }
