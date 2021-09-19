@@ -8,11 +8,11 @@ body {
   background-color: #6d6875;
 }
 
-body {
-  margin:0%;
+body, html {
   padding: 0%;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: #ffcdb2;
+  height: 100%;
 }
 
 .jumbo {
@@ -21,6 +21,11 @@ body {
   background-attachment: fixed;
   height: 20vh;
   width: 100%;
+}
+
+.about-container, .resume-container {
+  position: relative;
+  min-height: 100vh;
 }
 
 .about, .portfolio-title, .contact-title, .resume-title {
@@ -147,8 +152,10 @@ footer {
   background: url('../src/assets/cover/pink.jpeg');
   background-position: center;
   background-attachment: fixed;
-  height: 10vh;
+  height: 4rem;
   width: 100%;
+  position: absolute;
+
 }
 
 .portfolio-title {

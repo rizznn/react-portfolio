@@ -10,10 +10,10 @@ function Resume() {
     ]);
     const [currentPage] = useState(pages[0]);
     return (
-        <section className="resume">
+        <section className="resume-container">
             <div className="">
-                <div className="">
-                    <div className="">
+                <div >
+                    <div >
                         <h1 className="resume-title m-5 justify-center text-center">{capitalizeFirstLetter(currentPage.name)}</h1>
                         <div className="skills">
                             <h3>Front-end Skills</h3>
