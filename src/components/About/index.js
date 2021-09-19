@@ -10,7 +10,7 @@ function About() {
     const [currentPage] = useState(pages[0]);
 
     return (
-        <section className="text-center justify-center container">
+        <section className="text-center justify-center about-container container">
             <h1 className="about m-5">{capitalizeFirstLetter(currentPage.name)}</h1>
             <div className="about-p">
                 <p>I am a student in University of Toronto taking a coding bootcamp course. 

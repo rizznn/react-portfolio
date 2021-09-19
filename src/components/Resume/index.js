@@ -38,7 +38,7 @@ function Resume() {
                             </ul>
                            </div>
                         <p className="text-center">
-                            <a href={Pdf} className="my-resume  " target="_blank" >My Resume</a>
+                            <a href={Pdf} className="my-resume  " target="_blank" >Download My Resume</a>
                         </p>
                     </div>
                 </div>

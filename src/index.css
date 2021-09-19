@@ -41,6 +41,7 @@ body {
   font-size: 1.25rem;
 }
 
+
 header {
   justify-content: space-between;
   font-family: 'Aladin', italic;
@@ -66,7 +67,6 @@ header nav {
   justify-content: flex-end;
   float: right;
   font-size: 2rem;
-
 } 
 
 header nav ul {
@@ -138,8 +138,17 @@ form label {
 }
 
 .render-icons {
-  font-family: 'Font Awesome 5 Free';
-  font-style: none;
+  text-decoration: none;
+  color: #e5989b;
+  font-size: 2rem;
+}
+
+footer {
+  background: url('../src/assets/cover/pink.jpeg');
+  background-position: center;
+  background-attachment: fixed;
+  height: 10vh;
+  width: 100%;
 }
 
 .portfolio-title {
@@ -172,7 +181,7 @@ form label {
 .my-resume {
   text-decoration: none;
   padding: 6px 5px;
-  margin: 5px 0;
+  margin: 5px;
   border-radius: .3em;
   color: #6d6875;
   background-color: #ffb4a2;
