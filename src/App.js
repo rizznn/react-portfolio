@@ -1,39 +1,33 @@
-import React from 'react';
+import React, { useState } from 'react';
+import Header from "./components/Header"
+import Project from './components/Project'
 import About from './components/About';
-// import Navigation from './components/Navigation'
+import Navigation from './components/Navigation'
 import ContactForm from './components/Contact';
 
 function App() {
-  // const [categories] = useState([
-  //   {
-  //     name: 'commercial',
-  //     description: 'Photos of grocery stores, food trucks, and other commercial projects',
-  //   },
-  //   { name: 'portraits', description: 'Portraits of people in my life' },
-  //   { name: 'food', description: 'Delicious delicacies' },
-  //   { name: 'landscape', description: 'Fields, farmhouses, waterfalls, and the beauty of nature' },
-  // ]);
+  const [pages] = useState([
+    { name: "about me" },
+    { name: "portfolio" },
+    { name: "contact" },
+    { name: "resume" }
+]);
 
-  // const [currentCategory, setCurrentCategory] = useState(categories[0]);
-
-  // const [contactSelected, setContactSelected] = useState(false);
+const [currentPage, setCurrentPage] = useState(pages[0]);
 
   return (
     <div>
-      {/* <Navigation
-        categories={categories}
-        setCurrentCategory={setCurrentCategory}
-        currentCategory={currentCategory}
-        contactSelected={contactSelected}
-        setContactSelected={setContactSelected}
-      ></Navigation> */}
-      <main>
-      <main>
-        <ContactForm></ContactForm>
+      <Header>
+        <Navigation
+            pages={pages}
+            setCurrentPage={setCurrentPage}
+            currentPage={currentPage}
+        ></Navigation>
+      </Header>
+        <main>
+          <Page currentPage={currentPage}></Page>
+        </main>
 
-        <About></About>
-      </main>
-      </main>
     </div>
   );
 }

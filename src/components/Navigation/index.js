@@ -2,28 +2,28 @@ import React, { useEffect } from "react";
 import {capitalizeFirstLetter} from '../../utils/helpers'
 
 
-function Nav(props) {
+function Navigation(props) {
     const {
-        categories = [],
-        setCurrentCategory,
-        currentCategory,
+        pages = [],
+        setCurrentPage,
+        currentPage,
     } = props;
-    console.log(currentCategory)
+    console.log(currentPage)
 
     useEffect(() => {
-        document.title = capitalizeFirstLetter(currentCategory.name);
-      }, [currentCategory]);
+        document.title = capitalizeFirstLetter(currentPage.name);
+      }, [currentPage]);
 
     return (
         <header className="flex-row px-1">
             <h2>
-                <a data-testid="link" href="/">
-                <span role="img" aria-label="camera"> 📸</span> Oh Snap!
+                <a className="header-name" data-testid="link" href="/">
+                Rizzel Nolasco
                 </a>
             </h2>
-            <nav>
-                <ul className="flex-row">
-                    <li className="mx-2">
+            <nav className="nav-section flex">
+                <ul className="flex-row ul-section">
+                    <li className="about-nav mx-2">
                         <a data-testid="about" href="#about">
                         About me
                         </a>
@@ -31,12 +31,12 @@ function Nav(props) {
                     <li className="mx-2">
                         <span>Contact</span>
                     </li>
-                    {categories.map((category) => (
+                    {pages.map((Page) => (
                     <li className={`mx-1 ${
-                        currentCategory.name === category.name && 'navActive'
-                        }`}  key={category.name}>
-                        <span onClick={() => {setCurrentCategory(category)}}>
-                            {capitalizeFirstLetter(category.name)}
+                        currentPage.name === Page.name && 'navActive'
+                        }`}  key={Page.name}>
+                        <span onClick={() => {setCurrentPage(Page)}}>
+                            {capitalizeFirstLetter(Page.name)}
                         </span>
                     </li>
                     ))}
@@ -46,4 +46,4 @@ function Nav(props) {
     );
 }
 
-export default Nav;
+export default Navigation;
