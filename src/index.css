@@ -9,10 +9,18 @@ body {
 }
 
 body {
-  margin:0;
-  padding: 0;
+  margin:0%;
+  padding: 0%;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: #ffcdb2;
+}
+
+.jumbo {
+  background: url('../src/assets/cover/pink.jpeg');
+  background-position: center;
+  background-attachment: fixed;
+  height: 20vh;
+  width: 100%;
 }
 
 .about, .portfolio-title, .contact-title, .resume-title {
@@ -36,6 +44,8 @@ body {
 header {
   justify-content: space-between;
   font-family: 'Aladin', italic;
+  padding: 20px;
+  align-items: center;
 }
 
 header h2 {
@@ -48,14 +58,13 @@ header h2 a{
   font-size: 3rem;
   font-weight: bold;
   color: #ffcdb2;
+
 }
 
 header nav {
   display: flex;
   justify-content: flex-end;
-  align-items: center;
   float: right;
-  margin-right: 5%;
   font-size: 2rem;
 
 } 
@@ -64,8 +73,12 @@ header nav ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items: center;
   list-style: none;
+}
+
+header nav ul li {
+  padding: 10px;
+  display: flex;
 }
 
 
@@ -124,7 +137,28 @@ form label {
   margin-top: auto;
 }
 
+.portfolio-img {
+  width: 90%;
+  height: 200px;
+  background-position: center;
+}
 
+.portfolio-box {
+  margin-left: 10%;
+}
+
+.project-name {
+  margin-bottom: 5%;
+}
+
+.project-category-link {
+  margin-top: 0;
+}
+
+.project-category-link, .project-category-repo {
+  color: #e5989b;
+  font-weight: bold;
+}
 
 .my-resume {
   text-decoration: none;

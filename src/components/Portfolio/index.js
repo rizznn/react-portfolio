@@ -18,7 +18,7 @@ function Portfolio() {
         },
         {
             name: 'e-commerce-back-end',
-            description: 'Node.js/Express.js,Mysql2/Sequelize/dotenv',
+            description: 'Node.js/Express.js/Mysql2/Sequelize',
             link: "https://github.com/rizznn/e-commerce-back-end",
             repo: "https://github.com/rizznn/e-commerce-back-end"
         },
@@ -58,7 +58,7 @@ function Portfolio() {
             <section>
                 <div>
                     <h1 className="portfolio-title m-5 text-center">{capitalizeFirstLetter(currentPage.name)}</h1>
-                    <div className="row no-gutters popup-gallery">
+                    <div className="row popup-gallery">
                        
                             {projects.map((project, idx) => (
                                 <Project
