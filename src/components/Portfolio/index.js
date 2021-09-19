@@ -13,7 +13,7 @@ function Portfolio() {
         {
             name: 'tech-blog',
             description: 'Node.js/Handlebars/Sequelize-ORM/Express-session',
-            link: "https://tech-blog-app-mvc.herokuapp.com/e",
+            link: "https://tech-blog-app-mvc.herokuapp.com/",
             repo: "https://github.com/rizznn/tech-blog"
         },
         {

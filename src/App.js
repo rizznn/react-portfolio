@@ -1,10 +1,8 @@
 import React, { useState } from 'react';
 import Header from "./components/Header"
-import Project from './components/Project'
-import About from './components/About';
 import Navigation from './components/Navigation'
-import ContactForm from './components/Contact';
 import Page from './components/Page'
+import Footer from './components/Footer';
 
 function App() {
   const [pages] = useState([
@@ -28,7 +26,7 @@ const [currentPage, setCurrentPage] = useState(pages[0]);
         <main>
           <Page currentPage={currentPage}></Page>
         </main>
-
+      <Footer></Footer>
     </div>
   );
 }

@@ -81,6 +81,9 @@ header nav ul li {
   display: flex;
 }
 
+.nav-header:hover {
+  color: blue;
+}
 
 .ul-section li {
   list-style: none;
@@ -120,6 +123,7 @@ form label {
   font-size: 1rem;
   border: 2px solid #e5989b;
   border-radius: .3em;
+  flex-shrink: 0;
 }
 
 .btn {
@@ -131,6 +135,11 @@ form label {
   background-color: #ffb4a2;
   box-shadow: 3px 3px lightgray;
   transform: translate(-1px, -1px);
+}
+
+.render-icons {
+  font-family: 'Font Awesome 5 Free';
+  font-style: none;
 }
 
 .portfolio-title {

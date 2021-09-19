@@ -15,7 +15,6 @@ function Project({ project }) {
 			<div className="portfolio-box-captionone-project">
 				<div className="portfolio-box-caption-content">
 				<a href={repo} className="project-category-repo text-faded" target="_blank">
-						<i className="fab fa-github"></i>
 					</a>
 					<br />
 					<a href={link} className="project-category-link text-faded " target="_blank">{name}</a>{' '}
