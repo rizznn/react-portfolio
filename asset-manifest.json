@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.3ead333d.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.54dc2007.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.54dc2007.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.74f7a056.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.74f7a056.js.map",
+    "static/js/2.d314cf2c.chunk.js": "/react-portfolio/static/js/2.d314cf2c.chunk.js",
+    "static/js/2.d314cf2c.chunk.js.map": "/react-portfolio/static/js/2.d314cf2c.chunk.js.map",
+    "static/js/3.a7dc10be.chunk.js": "/react-portfolio/static/js/3.a7dc10be.chunk.js",
+    "static/js/3.a7dc10be.chunk.js.map": "/react-portfolio/static/js/3.a7dc10be.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "static/css/main.3ead333d.chunk.css.map": "/react-portfolio/static/css/main.3ead333d.chunk.css.map",
+    "static/js/2.d314cf2c.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.d314cf2c.chunk.js.LICENSE.txt",
+    "static/media/RESUME- RIZZEL NOLASCO, Full Stack Developer.f3da8a74.pdf": "/react-portfolio/static/media/RESUME- RIZZEL NOLASCO, Full Stack Developer.f3da8a74.pdf",
+    "static/media/crunch-time.png": "/react-portfolio/static/media/crunch-time.af88662b.png",
+    "static/media/e-commerce-back-end.png": "/react-portfolio/static/media/e-commerce-back-end.a528f7f1.png",
+    "static/media/employee-tracker.png": "/react-portfolio/static/media/employee-tracker.0ab1e43e.png",
+    "static/media/note-taker.png": "/react-portfolio/static/media/note-taker.ae8d8a4a.png",
+    "static/media/readme-builder.png": "/react-portfolio/static/media/readme-builder.59c3e95f.png",
+    "static/media/tech-blog.png": "/react-portfolio/static/media/tech-blog.b883a1f8.png",
+    "static/media/thoughts-social-network-api.png": "/react-portfolio/static/media/thoughts-social-network-api.6e18af80.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.74f7a056.js",
+    "static/js/2.d314cf2c.chunk.js",
+    "static/css/main.3ead333d.chunk.css",
+    "static/js/main.54dc2007.chunk.js"
+  ]
+}
