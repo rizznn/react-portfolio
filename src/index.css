@@ -41,9 +41,15 @@ body, html {
   margin-left: 0 auto;
 }
 
+.photo {
+  width: 25%;
+  float: left;
+  margin: 0 2% 0% 0;
+}
+
 .about-p {
-  align-items: flex-end;
   font-size: 1.25rem;
+  text-align: justify;
 }
 
 
@@ -88,6 +94,10 @@ header nav ul li {
 
 .nav-header:hover {
   color: blue;
+}
+
+.navActive {
+  color: #ff87ab;
 }
 
 .ul-section li {
@@ -183,7 +193,19 @@ footer {
 .project-category-link, .project-category-repo {
   color: #e5989b;
   font-weight: bold;
+  text-decoration: none;
 }
+
+
+
+/* .portfolio-box-caption-content {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  transform: translateY(-50%);
+  text-align: center;
+  padding: 0 15px;
+} */
 
 .my-resume {
   text-decoration: none;

@@ -14,10 +14,13 @@ function Project({ project }) {
 			/>
 			<div className="portfolio-box-captionone-project">
 				<div className="portfolio-box-caption-content">
-				<a href={repo} className="project-category-repo text-faded" target="_blank">
-					</a>
-					<br />
-					<a href={link} className="project-category-link text-faded " target="_blank">{name}</a>{' '}
+					<div>
+						<a href={repo} className="project-category-repo" target="_blank">repo:  {name}</a>
+					</div>
+					<div>
+						<a href={link} className="project-category-link text-faded " target="_blank">deployed-link:  {name}</a>{' '}
+
+					</div>
 					
 					<p className="project-name">{description}</p>
 				</div>

@@ -16,7 +16,7 @@ function Resume() {
                     <div >
                         <h1 className="resume-title m-5 justify-center text-center">{capitalizeFirstLetter(currentPage.name)}</h1>
                         <div className="skills">
-                            <h3>Front-end Skills</h3>
+                            <h3>Front-end Proficiencies</h3>
                             <ul>
                                 <li>HTML</li>
                                 <li>CSS</li>
@@ -26,7 +26,7 @@ function Resume() {
                                 <li>React</li>
                                 <li>Bootstrap</li>
                             </ul>
-                            <h3>Back-end Skills</h3>
+                            <h3>Back-end Proficiencies</h3>
                             <ul>
                                 <li>APIs</li>
                                 <li>Node</li>
@@ -38,7 +38,7 @@ function Resume() {
                             </ul>
                            </div>
                         <p className="text-center">
-                            <a href={Pdf} className="my-resume  " target="_blank" >Download My Resume</a>
+                            <a href={Pdf} className="my-resume  " download>Download My Resume</a>
                         </p>
                     </div>
                 </div>

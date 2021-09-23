@@ -45,12 +45,6 @@ function Portfolio() {
             description: 'JS/APIs/Materialize',
             link: "https://crunchteam04.github.io/Crunch-Time",
             repo: "https://github.com/crunchteam04/Crunch-Time"
-        },
-        {
-            name: 'readme-builder',
-            description: 'Node.js/JS/ES6',
-            link: "https://github.com/rizznn/readme-builder",
-            repo: "https://github.com/rizznn/readme-builder"
         }
     ]);
 
